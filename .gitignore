@@ -1,0 +1,12 @@
+# Dependency directories
+node_modules/
+
+# dotenv environment variables file
+.env
+
+# System Files
+.DS_Store
+# text Files
+*.txt
+.pdf
+.jpeg

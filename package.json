@@ -1,0 +1,36 @@
+{
+  "name": "passport",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "engines": {
+    "node": "8.11.1",
+    "npm": "6.1.0"
+  },
+  "dependencies": {
+    "express":"*",
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.18.3",
+    "express-session": "^1.15.6",
+    "mysql2": "^1.5.3",
+    "passport": "^0.4.0",
+    "passport-google-oauth": "^1.0.0",
+    "passport-local": "^1.0.0",
+    "sequelize": "^4.37.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesquitin/codeCampProjectTwo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jesquitin/codeCampProjectTwo/issues"
+  },
+  "homepage": "https://github.com/jesquitin/codeCampProjectTwo#readme"
+}

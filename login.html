@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Career Match</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="assets/css/styles.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+
+
+  <nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" id="job-heading" href="#">Career Match</a>
+    <form class="form-inline" id="login">
+      <input class="form-control mr-sm-2" id="email-input-log" type="email" placeholder="Email" aria-label="email">
+      <input class="form-control mr-sm-2" id="password-input-log" type="password" placeholder="Password" aria-label="password">
+      <input type="submit" value="Sign In" class="btn btn-outline-success my-2 my-sm-0" id="submit-log" type="submit" />
+
+
+
+    </form>
+  </nav>
+
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <h2>Sign Up Here</h2>
+        <form class="signup">
+          <br>
+          <div class="row">
+            <div class="col">
+              <input type="text" class="form-control" id="firstName" placeholder="First name">
+              <div class="error-message1" style="display:none;"></div>
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" id="lastName" placeholder="Last name">
+              <div class="error-message2" style="display:none;"></div>
+            </div>
+          </div>
+          <br>
+          <div class="form-group">
+            <input type="email" class="form-control" id="email-input" placeholder="Email">
+            <div class="error-message3" style="display:none;"></div>
+          </div>
+          <div style="display: none" id="alert" class="alert alert-danger" role="alert">
+            <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+            <span class="sr-only">Error:</span>
+            <span class="msg"></span>
+          </div>
+          <div class="form-group">
+            <input type="password" class="form-control" id="password-input" placeholder="Password">
+            <div class="error-message4" style="display:none;"></div>
+          </div>
+          <div class="form-group">
+            <input type="password" class="form-control" id="confirmPassword-input" placeholder="Confirm Password">
+            <div class="error-message5" style="display:none;"></div>
+          </div>
+
+
+          <input type="submit" value="Sign Up" class="btn btn-outline-success my-2 my-sm-0" id="submit-signup" type="submit" />
+
+
+
+
+        </form>
+      </div>
+      <div class="col-md-6">
+        <div class="animated-job">
+          <h1 id="job-hunt">Career Match</h1>
+        </div>
+
+        <div class="social-media">
+                          
+          <a href="https://github.com/WRugby1/EmployeerSearch/projects/2">
+            <div id="btn3" class="button">
+              <h5>
+                <i class="fab fa-github">
+                  <span class="icon">/project-2-group-10</span>
+                </i>
+              </h5>
+            </div>
+          </a>
+          
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="assets/javascript/job.js"></script>
+  <script type="text/javascript" src="assets/javascript/login.js"></script>
+  <script type="text/javascript" src="assets/javascript/signup.js"></script>
+  <script type="text/javascript" src="assets/javascript/mainmenu.js"></script>
+
+</body>
+
+</html>

@@ -1,9 +1,9 @@
 {
     "development": {
-        "username": "e29u9exdal867g61",
-        "password": "ahk5ksv9ujj68x9z",
-        "database": "cowdd9v6g38zsppz",
-        "host": "y5s2h87f6ur56vae.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+        "username": "root",
+        "password": "Weberrugby1",
+        "database": "jobHunt_db",
+        "host": "127.0.0.1",
         "use_env_variable": "mysql://e29u9exdal867g61:ahk5ksv9ujj68x9z@y5s2h87f6ur56vae.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/cowdd9v6g38zsppz",
         "dialect": "mysql"
     },

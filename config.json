@@ -23,14 +23,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jesquitin/codeCampProjectTwo.git"
-  },
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jesquitin/codeCampProjectTwo/issues"
-  },
-  "homepage": "https://github.com/jesquitin/codeCampProjectTwo#readme"
+  "license": "ISC"
 }

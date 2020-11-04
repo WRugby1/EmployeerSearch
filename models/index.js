@@ -12,9 +12,10 @@ var basename = path.basename(__filename);
 var env = process.env.NODE_ENV || 'development';
 var config = require(__dirname + "/../config/config.json")[env];
 var db = {};
+console.log(config.use_env_variable)
 
 if (config.use_env_variable) {
-  var sequelize = new Sequelize(process.env[config.use_env_variable], config);
+  var sequelize = new Sequelize(config.use_env_variable, config);
 } else {
   var sequelize = new Sequelize(config.database, config.username, config.password, config);
 }

@@ -1,23 +1,23 @@
 {
     "development": {
-      "username": "root",
-      "password": "Weberrugby1",
-      "database": "jobHunt_db",
-      "host": "127.0.0.1",
-      "dialect": "mysql"
+        "username": "root",
+        "password": null,
+        "database": "jobHunt_db",
+        "host": "127.0.0.1",
+        "dialect": "mysql"
     },
     "test": {
-      "username": "root",
-      "password": null,
-      "database": "jobHunt_db_test",
-      "host": "127.0.0.1",
-      "dialect": "mysql"
+        "username": "root",
+        "password": null,
+        "database": "jobHunt_db_test",
+        "host": "127.0.0.1",
+        "dialect": "mysql"
     },
     "production": {
-      "username": "root",
-      "password": null,
-      "database": "jobHunt_db_production",
-      "host": "127.0.0.1",
-      "dialect": "mysql"
+        "username": "root",
+        "password": null,
+        "database": "jobHunt_db_production",
+        "host": "127.0.0.1",
+        "dialect": "mysql"
     }
-  }
+}

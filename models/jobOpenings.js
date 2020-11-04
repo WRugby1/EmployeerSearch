@@ -1,6 +1,3 @@
-// job_openings.js to create the table which will hold job openings and be 
-// associated with a company in the companies table
-
 module.exports = function (sequelize, DataTypes) {
     var JobOpening = sequelize.define("JobOpening", {
 
@@ -32,20 +29,6 @@ module.exports = function (sequelize, DataTypes) {
         skillsRequired: {
             type: DataTypes.STRING
         }
-
-        //need to include employer ID and Job ID.  get from other tables joins and 
-        //insert into Contacts (employerID, value)
-        //values ( ( select id from empTalble where employer = 'company name'), )
     });
-    // JobOpening.associate = function(models) {
-    //       // Associating Job Opening with Company
-    //       JobOpening.belongsTo(models.Company, {
-    //         // onDelete: "cascade"
-    //         foreignKey: {
-    //             allowNull: false
-    //         }
-    //       });
-    //     };
-        
     return JobOpening;
 };

@@ -24,7 +24,7 @@ var routes = require("./routes");
 app.use(routes);
 
 // Syncing our database and logging a message to the user upon success
-db.sequelize.sync({ force: false }).then(function() {
+db.sequelize.sync({ force: true }).then(function() {
   app.listen(port, function() {
     console.log("==> 🌎  Listening on port %s. Visit http://localhost:%s/ in your browser.", port, port);
   });

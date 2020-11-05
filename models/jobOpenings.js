@@ -11,22 +11,13 @@ module.exports = function (sequelize, DataTypes) {
         co_name: {
             type: DataTypes.STRING
         },
-        jobPost_url: {
+        recruiter_email: {
+            type: DataTypes.STRING
+        },
+        recruiter_phone: {
             type: DataTypes.STRING
         },
         jobLocation: {
-            type: DataTypes.STRING
-        },
-        jobPriority: {
-            type: DataTypes.STRING
-        },
-        resume_file_submitted: {
-            type: DataTypes.STRING
-        },
-        jobPostingSource: {
-            type: DataTypes.STRING
-        },
-        skillsRequired: {
             type: DataTypes.STRING
         }
     });

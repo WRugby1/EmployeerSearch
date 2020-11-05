@@ -34,8 +34,7 @@ function deleteJob(event) {
 
 function createNewRow(job) {
   var $newInputRow = $(
-    [ // "<button class='delete btn btn-danger'>x</button>",
-
+    [
       "<tr>",
       "<td>",
       job.jobTitle,
@@ -44,26 +43,13 @@ function createNewRow(job) {
       job.co_name,
       "</td>",
       "<td>",
-      "<a href = "+job.jobPost_url+">",
-      job.jobPost_url,
-      "</a>",
-      "</td>",
-      "<td>",
       job.jobLocation,
       "</td>",
       "<td>",
-      job.jobPriority,
+      job.recruiter_email,
       "</td>",
       "<td>",
-      "<a href = "+job.resume_file_submitted+">",
-      job.resume_file_submitted,
-      "</a>",
-      "</td>",
-      "<td>",
-      job.jobPostingSource,
-      "</td>",
-      "<td>",
-      job.skillsRequired,
+      job.recruiter_phone,
       "</td>",
       "<td>",
       "<button class='delete btn btn-danger'>x</button>",
@@ -99,12 +85,9 @@ $("#add-btn-job").on("click", function (event) {
   var newJob = {
     jobTitle: $("#job-title").val().trim(),
     co_name: $("#company-name").val().trim(),
-    jobPost_url: $("#jobPost-url").val().trim(),
-    jobLocation: $("#job-location").val().trim(),
-    jobPriority: $("#job-priority").val().trim(),
-    resume_file_submitted: $("#resume-url").val().trim(),
-    jobPostingSource: $("#job-source").val().trim(),
-    skillsRequired: $("#skills-required").val().trim()
+    recruiter_email: $("#email-input").val().trim(),
+    recruiter_phone: $("#contact-phone").val().trim(),
+    jobLocation: $("#location").val(),
   };
 
   // Send an AJAX POST-request with jQuery
@@ -118,12 +101,9 @@ $("#add-btn-job").on("click", function (event) {
   // Empty each input box by replacing the value with an empty string
   $("#job-title").val("");
   $("#company-name").val("");
-  $("#jobPost-url").val("");
-  $("#job-location").val("");
-  $("#job-priority").val("");
-  $("#resume-url").val("");
-  $("#job-source").val("");
-  $("#skills-required").val("");
+  $("#location").val("");
+  $("#email-input").val("");
+  $("#contact-phone").val("");
 
   $.get("api/jobOpenings", function (data) {
     jobs = data;

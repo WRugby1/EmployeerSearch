@@ -24,11 +24,8 @@ router.post("/new", function (req, res) {
     jobTitle: req.body.jobTitle,
     co_name: req.body.co_name,
     jobLocation: req.body.jobLocation,
-    jobPost_url: req.body.jobPost_url,
-    jobPriority: req.body.jobPriority,
-    resume_file_submitted: req.body.resume_file_submitted,
-    jobPostingSource: req.body.jobPostingSource,
-    skillsRequired: req.body.skillsRequired
+    recruiter_email: req.body.recruiter_email,
+    recruiter_phone: req.body.recruiter_phone
   });
 });
 // DELETE route for deleting JobOpenings

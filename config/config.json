@@ -1,7 +1,7 @@
 {
     "development": {
         "username": "root",
-        "password": "",
+        "password": "ShadowZer0!",
         "database": "jobHunt_db",
         "host": "127.0.0.1",
         "use_env_variable": "mysql://e29u9exdal867g61:ahk5ksv9ujj68x9z@y5s2h87f6ur56vae.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/cowdd9v6g38zsppz",

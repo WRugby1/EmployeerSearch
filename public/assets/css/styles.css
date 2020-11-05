@@ -12,6 +12,17 @@
     margin-left: 40%;
     height: 10%;
   }
+  .holder {
+    border-style: groove;
+    border-width: 5px;
+    border-color: turquoise;
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+  }
   #job-heading {
       color: black;
   }

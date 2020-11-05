@@ -1,16 +1,16 @@
 // Requiring necessary npm packages
-var express = require("express");
-var bodyParser = require("body-parser");
-var session = require("express-session");
+const express = require("express");
+const bodyParser = require("body-parser");
+const session = require("express-session");
 // Requiring passport as we've configured it
-var passport = require("./config/passport");
+const passport = require("./config/passport");
 
 // Setting up port and requiring models for syncing
-var port = process.env.PORT || 8080
+const port = process.env.PORT || 8080
 var db = require("./models");
 
 // Creating express app and configuring middleware needed for authentication
-var app = express();
+const app = express();
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(express.static("public"));
@@ -20,7 +20,7 @@ app.use(session({ secret: "keyboard cat", resave: true, saveUninitialized: true 
 app.use(passport.initialize());
 app.use(passport.session());
 
-var routes = require("./routes");
+const routes = require("./routes");
 app.use(routes);
 
 // Syncing our database and logging a message to the user upon success

@@ -1,7 +1,7 @@
-var router = require("express").Router();
-var htmlRoutes = require("./html-routes");
-var apiRoutes = require("./api");
-var loginRoutes = require("./login-api-routes");
+const router = require("express").Router();
+const htmlRoutes = require("./html-routes");
+const apiRoutes = require("./api");
+const loginRoutes = require("./login-api-routes");
 
 router.use("/", htmlRoutes);
 

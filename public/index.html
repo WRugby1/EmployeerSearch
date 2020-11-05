@@ -31,72 +31,69 @@
       </div>
     </div>
   </nav>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 col-md-offset-3">
-        <h2>Sign Up Here</h2>
-        <form class="signup">
-          <br>
-          <div class="row">
-            <div class="col">
-              <input type="text" class="form-control" id="firstName" placeholder="First Name">
-              <div class="error-message1" style="display:none;"></div>
+  <div class="container-md holder">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <h2>Sign Up Here</h2>
+          <form class="signup">
+            <br>
+            <div class="row">
+              <div class="col">
+                <input type="text" class="form-control" id="firstName" placeholder="First Name">
+                <div class="error-message1" style="display:none;"></div>
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+                <div class="error-message2" style="display:none;"></div>
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" id="phoneNumber" placeholder="Phone #">
+                <div class="error-message2" style="display:none;"></div>
+              </div>
             </div>
-            <div class="col">
-              <input type="text" class="form-control" id="lastName" placeholder="Last Name">
-              <div class="error-message2" style="display:none;"></div>
+            <br>
+            <div class="form-group">
+              <input type="email" class="form-control" id="email-input" placeholder="Email">
+              <div class="error-message3" style="display:none;"></div>
             </div>
-            <div class="col">
-              <input type="text" class="form-control" id="phoneNumber" placeholder="Phone #">
-              <div class="error-message2" style="display:none;"></div>
+            <div style="display: none" id="alert" class="alert alert-danger" role="alert">
+              <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+              <span class="sr-only">Error:</span>
+              <span class="msg"></span>
             </div>
-          </div>
-          <br>
-          <div class="form-group">
-            <input type="email" class="form-control" id="email-input" placeholder="Email">
-            <div class="error-message3" style="display:none;"></div>
-          </div>
-          <div style="display: none" id="alert" class="alert alert-danger" role="alert">
-            <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
-            <span class="sr-only">Error:</span>
-            <span class="msg"></span>
-          </div>
-          <div class="form-group">
-            <input type="password" class="form-control" id="password-input" placeholder="Password">
-            <div class="error-message4" style="display:none;"></div>
-          </div>
-          <div class="form-group">
-            <input type="password" class="form-control" id="confirmPassword-input" placeholder="Password Confirm">
-            <div class="error-message5" style="display:none;"></div>
-          </div>
-
-          <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Account role
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-              <button class="dropdown-item" type="button">Employee</button>
-              <button class="dropdown-item" type="button">Manager</button>
+            <div class="form-group">
+              <input type="password" class="form-control" id="password-input" placeholder="Password">
+              <div class="error-message4" style="display:none;"></div>
             </div>
-          </div>
+            <div class="form-group">
+              <input type="password" class="form-control" id="confirmPassword-input" placeholder="Password Confirm">
+              <div class="error-message5" style="display:none;"></div>
+            </div>
 
-          <br>
-          <input type="submit" value="Sign Up" class="btn btn-outline-success my-2 my-sm-0" id="submit-signup"
-            type="submit" />
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Account role
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                <button class="dropdown-item" type="button">Employee</button>
+                <button class="dropdown-item" type="button">Manager</button>
+              </div>
+            </div>
 
+            <br>
+            <input type="submit" value="Sign Up" class="btn btn-outline-success my-2 my-sm-0" id="submit-signup"
+              type="submit" />
 
-
-
-        </form>
+          </form>
+        </div>
       </div>
-    </div>
+
   </div>
 
 
-  <script src="https://code.jquery.com/jquery-3.5.1.js"
-  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-  crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
     crossorigin="anonymous"></script>

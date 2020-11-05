@@ -8,9 +8,10 @@
     "npm": "6.1.0"
   },
   "dependencies": {
-    "express": "*",
     "bcrypt-nodejs": "^0.0.3",
     "body-parser": "^1.18.3",
+    "dotenv": "^8.2.0",
+    "express": "*",
     "express-session": "^1.15.6",
     "mysql2": "^1.5.3",
     "passport": "^0.4.0",

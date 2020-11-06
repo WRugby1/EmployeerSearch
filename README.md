@@ -9,18 +9,14 @@
   - [Questions](#questions)
 
   ## Description
-  Career Match is an application to match job seekers with potential employers and vice versa. The goal of this application is to make
-  it easier for employers to seek out potential employees based on their skills and ambitions. Or to help job seekers find suitable
-  work based on their criteria for adequate employment. 
+  Career Match is an application to match job seekers with potential employers and vice versa. The goal of this application is to make it easier for employers to seek out potential employees based on their skills and ambitions. Or to help job seekers find suitable work based on their criteria for adequate employment. 
   
   ## Installation
   This is a fully deployed app. Please visit the website here: [Career Match](https://career-match-proj-2.herokuapp.com/)
 
   
   ## Usage 
-  On the home page the user must create a profile or log in if a profile is already created. From there select a 
-  role of either employee or manager. Each role has different functions. Managers are allowed to add companies/jobs 
-  to the website. While the employee role allows the user to see added jobs & add contacts to reach out to later.
+  On the home page the user must create a profile or log in if a profile is already created. From there select a role of either employee or manager. Each role has different functions. Managers are allowed to add companies/jobs to the website. While the employee role allows the user to see added jobs & add contacts to reach out to later.
 
 
   ## Future

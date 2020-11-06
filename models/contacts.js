@@ -24,4 +24,14 @@ module.exports = function (sequelize, DataTypes) {
             type: DataTypes.STRING
         }
     });
+    Contacts.associate = function(models) {
+        // Associating Contact with Company
+        Contacts.belongsTo(models.Company, {
+          onDelete: "cascade",
+          foreignKey: {
+              allowNull: false
+          }
+        });
+      };
+    return Contacts;
 };

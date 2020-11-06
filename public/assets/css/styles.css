@@ -12,6 +12,9 @@
     margin-left: 40%;
     height: 10%;
   } */
+  body {
+    color: #48ffd5;
+  }
   h1{
     color:#48ffd5;
   }
@@ -21,6 +24,9 @@
   border-color: #48ffd5;
   text-align: center;
   margin-top: 50px;
+}
+td {
+  color: #48ffd5;
 }
 section {
   position: relative;

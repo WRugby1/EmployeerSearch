@@ -513,3 +513,11 @@ input[type="date"]:valid:before {
   }
 
 }
+
+#alignphone {
+    padding-right: 50px;
+}
+
+#centering {
+  padding-left: 50px;
+}

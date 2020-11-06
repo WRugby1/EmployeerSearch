@@ -22,21 +22,6 @@ module.exports = function (sequelize, DataTypes) {
         },
         co_name: {
             type: DataTypes.STRING
-
         }
-
-        //need to include employer ID and Job ID.  get from other tables joins and 
-        //insert into Contacts (employerID, value)
-        //values ( ( select id from empTalble where employer = 'company name'), )
     });
-    Contacts.associate = function(models) {
-        // Associating Contact with Company
-        Contacts.belongsTo(models.Company, {
-          onDelete: "cascade",
-          foreignKey: {
-              allowNull: false
-          }
-        });
-      };
-    return Contacts;
 };
